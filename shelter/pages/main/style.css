@@ -69,3 +69,60 @@
   color: #fafafa;
   cursor: default;
 }
+
+.start-screen {
+  background: url("../../assets/images/start-screen-bg.jpg") no-repeat top right;
+  background-size: cover;
+}
+
+.start-screen__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.start-screen__content {
+  max-width: 460px;
+  margin-top: 163px;
+}
+
+.start-screen__subtitle {
+  max-width: 310px;
+  margin-bottom: 42px;
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 130%;
+  color: #fff;
+}
+
+.start-screen__text {
+  margin-bottom: 56px;
+  font-family: 'Arial', sans-serif;
+  font-size: 15px;
+  line-height: 160%;
+  color: #cdcdcd;
+}
+
+.start-screen__link {
+  padding: 15px 45px;
+  border-radius: 100px;
+  background: #f1cdb3;
+  font-family: 'Georgia', serif;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: .06em;
+  text-decoration: none;
+  color: #292929;
+}
+
+.start-screen__link:hover {
+  background: #fddcc4;
+}
+
+.start-screen__image-item {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
