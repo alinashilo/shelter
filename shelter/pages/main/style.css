@@ -168,6 +168,6 @@
   color: #4c4c4c;
 }
 
-.about__subtitle + .about__text {
+.about__subheading + .about__text {
   margin: 25px 0;
 }
