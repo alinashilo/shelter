@@ -399,7 +399,7 @@
   background: url("../../assets/icons/marker.svg");
 }
 
-.footer__text {
+.footer__link {
   font-family: 'Georgia', serif;
   font-style: normal;
   font-weight: 400;
@@ -407,6 +407,7 @@
   line-height: 115%;
   letter-spacing: 0.06em;
   color: #f1cdb3;
+  text-decoration: none;
 }
 
 .footer__image-item {
