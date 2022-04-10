@@ -3,3 +3,150 @@
 * {
   margin: 0;
 }
+
+.header {
+  background: #fff;
+}
+
+.header__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo__link {
+  text-decoration: none;
+  color: #545454;
+}
+
+.logo__title {
+  margin: 0 0 10px;
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: .06em;
+  text-transform: capitalize;
+}
+
+.logo__subtitle {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: .1em;
+  color: #292929;
+}
+
+.header__nav {
+  flex: 0 1 40.3%;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav__link {
+  padding-bottom: 3px;
+  font-family: 'Arial', sans-serif;
+  font-size: 15px;
+  line-height: 160%;
+  color: #545454;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: #292929;
+}
+
+.nav__link_active {
+  border-bottom: 3px solid #f1cdb3;
+  color: #292929;
+  cursor: default;
+}
+
+.footer {
+  background: url("../../assets/images/start-screen-bg.jpg") no-repeat top left;
+  background-size: cover;
+}
+
+.footer__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  column-gap: 160px;
+}
+
+.footer__content {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__content:first-of-type {
+  max-width: 280px;
+  row-gap: 40px;
+}
+
+.footer__content:nth-of-type(2) {
+  max-width: 302px;
+  row-gap: 32px;
+}
+
+.footer__subheading {
+  font-family: 'Georgia', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
+
+.footer__item {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.footer__icon {
+  width: 40px;
+  height: 32px;
+}
+
+.footer__icon_email {
+  background: url("../../assets/icons/email.svg");
+}
+
+.footer__icon_phone {
+  background: url("../../assets/icons/phone.svg");
+}
+
+.footer__icon_location {
+  width: 22px;
+  height: 32px;
+  background: url("../../assets/icons/marker.svg");
+}
+
+.footer__link {
+  font-family: 'Georgia', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #f1cdb3;
+  text-decoration: none;
+}
+
+.footer__image-item {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
