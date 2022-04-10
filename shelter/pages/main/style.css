@@ -172,6 +172,128 @@
   margin: 25px 0;
 }
 
+.pets {
+  background: #f6f6f6;
+}
+
+.pets__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 60px;
+}
+
+.pets__subheading {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.pets__cards {
+  /*margin: 15px 0;*/
+  display: flex;
+  column-gap: 90px;
+}
+
+.pets__item {
+  border-radius: 9px;
+  background: #fafafa;
+  text-align: center;
+  transition: .5s;
+}
+
+.pets__item:hover {
+  background: #fff;
+  box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.04);
+  cursor: pointer;
+}
+
+.pets__name {
+  margin: 25px 0 30px;
+  font-family: 'Georgia', serif;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.pets__button {
+  margin-bottom: 30px;
+  padding: 13px 45px;
+  border: 2px solid #f1cdb3;
+  border-radius: 100px;
+  background: transparent;
+  outline: none;
+  font-family: 'Georgia', serif;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  transition: .5s;
+}
+
+.pets__item:hover .pets__button {
+  border: 2px solid #fddcc4;
+  background: #fddcc4;
+}
+
+.pets__slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 53px;
+}
+
+.slider__btn {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #f1cdb3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  transition: .5s;
+}
+
+.slider__btn_arrow_right {
+  transform: rotate(180deg);
+}
+
+.slider__btn:hover {
+  border: 2px solid #fddcc4;
+  background: #fddcc4;
+  cursor: pointer;
+}
+
+.pets__ref {
+  margin: 15px 0;
+}
+
+.pets__link {
+  padding: 15px 45px;
+  border-radius: 100px;
+  background: #f1cdb3;
+  font-family: 'Georgia', serif;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.pets__link:hover {
+  background: #fddcc4;
+}
+
 .help {
   background: #fff;
 }
