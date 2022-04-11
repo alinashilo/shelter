@@ -270,6 +270,7 @@ html {
 .pets__item:hover .pets__button {
   border: 2px solid #fddcc4;
   background: #fddcc4;
+  cursor: pointer;
 }
 
 .pets__slider {
@@ -468,12 +469,17 @@ html {
   letter-spacing: 0.06em;
   color: #545454;
   text-decoration: none;
+  transition: .5s;
 }
 
 .donation__card::before {
   content: url("../../assets/icons/credit-card.svg");
   margin-right: 15px;
   display: block;
+}
+
+.donation__card:hover {
+  background: #fddcc4;
 }
 
 .donation__text {
