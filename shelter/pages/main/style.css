@@ -1,5 +1,29 @@
 @import url("../../styles/normalize.css");
 
+@font-face {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/arial.woff2") format("woff2"),
+       url("../../assets/fonts/arial.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Arial';
+  font-style: italic;
+  font-weight: 400;
+  src: url("../../assets/fonts/arial-italic.woff2") format("woff2"),
+  url("../../assets/fonts/arial-italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/georgia.woff2") format("woff2"),
+  url("../../assets/fonts/georgia.woff") format("woff");
+}
+
 * {
   margin: 0;
 }
