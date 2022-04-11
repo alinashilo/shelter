@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   background: url("../../assets/images/start-screen-bg.jpg") no-repeat top left;
   background-size: cover;
