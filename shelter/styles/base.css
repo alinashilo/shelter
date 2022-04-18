@@ -60,6 +60,14 @@ html {
   line-height: 130%;
 }
 
+@media screen and (max-width: 767px) {
+  .subtitle {
+    font-size: var(--font-size-subtitle-mobile);
+    text-align: center;
+    letter-spacing: var(--letter-spacing);
+  }
+}
+
 .subheading {
   font-family: 'Georgia', serif;
   font-weight: 400;
@@ -67,6 +75,14 @@ html {
   line-height: 130%;
   letter-spacing: var(--letter-spacing);
   color: var(--color-dark-l);
+}
+
+@media screen and (max-width: 767px) {
+  .subheading {
+    font-size: var(--font-size-subtitle-mobile);
+    text-align: center;
+    letter-spacing: var(--letter-spacing);
+  }
 }
 
 .name {
