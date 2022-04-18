@@ -112,7 +112,6 @@
 }
 
 .start-screen__subtitle {
-  /*max-width: 310px;*/
   color: var(--color-light-xl);
 }
 
@@ -153,12 +152,6 @@
 
   .start-screen__image {
     padding-left: 20%;
-    /*align-self: flex-end;*/
-  }
-
-  .start-screen__image-item {
-    /*width: 569px;*/
-    /*height: auto;*/
   }
 }
 
@@ -181,12 +174,6 @@
 
   .start-screen__text {
     text-align: center;
-  }
-
-  .start-screen__image {
-    padding-left: 12.5%;
-    /*width: 260px;*/
-    /*height: auto;*/
   }
 }
 
@@ -214,10 +201,6 @@
 
 .about__text {
   color: var(--color-dark-xl);
-}
-
-.about__subheading + .about__text {
-  /*margin: 25px 0;*/
 }
 
 @media screen and (max-width: 1279px) {
@@ -357,12 +340,10 @@
   }
 
   .pets__slider {
-    /*column-gap: 6.9%;*/
     column-gap: 12px;
   }
 
   .pets__cards {
-    /*column-gap: 7.2%;*/
     column-gap: 40px;
   }
 
@@ -380,19 +361,10 @@
   .pets__slider {
     flex-wrap: wrap;
     gap: 20px 80px;
-    /*flex: 0 0 100%;*/
   }
 
   .pets__cards {
-    /*order: -1;*/
-    /*flex: 0 0 100%;*/
-    /*flex-grow: 1;*/
     flex: 0 1 100%;
-  }
-
-  .pets__item {
-    /*flex-basis: 100%;*/
-    /*margin-bottom: 20px;*/
   }
 
   .pets__item:nth-of-type(2) {
@@ -558,11 +530,9 @@
 
 .donation__subheading {
   max-width: 300px;
-  /*margin-bottom: 20px;*/
 }
 
 .donation__subheading_small {
-  /*margin-bottom: 20px;*/
   font-weight: 400;
   font-size: var(--font-size-subheading-small);
   line-height: 110%;
@@ -571,7 +541,6 @@
 }
 
 .donation__card {
-  /*margin-bottom: 20px;*/
   padding: 10px 15px 5px;
   border-radius: 9px;
   align-self: flex-start;
@@ -586,7 +555,6 @@
 
 .donation__card::before {
   content: url("../../assets/icons/credit-card.svg");
-  /*margin-right: 15px;*/
   display: block;
 }
 
@@ -644,10 +612,6 @@
     column-gap: 13px;
     font-size: 15px;
     line-height: 110%;
-  }
-
-  .donation__card::before {
-    /*margin-right: 14px;*/
   }
 
   .donation__text {
