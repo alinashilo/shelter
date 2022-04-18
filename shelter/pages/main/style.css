@@ -175,6 +175,10 @@
   .start-screen__text {
     text-align: center;
   }
+
+  .start-screen__image {
+    padding-left: 13%;
+  }
 }
 
 .about {
@@ -212,7 +216,7 @@
   .about__content {
     max-width: none;
     padding: 0 22%;
-    row-gap: 23px;
+    row-gap: 25px;
   }
 
   .about__image {
@@ -232,6 +236,7 @@
 
   .about__content {
     padding: 0 7.8%;
+    row-gap: 24px;
   }
 
   .about__subheading {
