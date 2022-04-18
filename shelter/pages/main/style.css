@@ -152,12 +152,13 @@
   }
 
   .start-screen__image {
-    align-self: flex-end;
+    padding-left: 20%;
+    /*align-self: flex-end;*/
   }
 
   .start-screen__image-item {
-    width: 569px;
-    height: auto;
+    /*width: 569px;*/
+    /*height: auto;*/
   }
 }
 
@@ -167,7 +168,7 @@
   }
 
   .start-screen__container {
-    row-gap: 105px;
+    row-gap: 103px;
   }
 
   .start-screen__content {
@@ -183,8 +184,9 @@
   }
 
   .start-screen__image {
-    width: 260px;
-    height: auto;
+    padding-left: 12.5%;
+    /*width: 260px;*/
+    /*height: auto;*/
   }
 }
 
